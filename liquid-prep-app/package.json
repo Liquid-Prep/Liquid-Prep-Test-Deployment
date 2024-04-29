@@ -10,7 +10,6 @@
     "e2e": "ng e2e",
     "build-prod": "ng build --configuration production",
     "serve-prod": "npm run build-prod && cd dist/liquid-prep-app && http-server -c-1",
-    "deploy-github-pages": "ng deploy --base-href=https://liquid-prep.github.io/Liquid-Prep-Test-Deployment/app/",
     "postinstall": "ngcc",
     "http-server": "http-server -o"
   },
